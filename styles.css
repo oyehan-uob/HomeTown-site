@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    color: #07eb25f1;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(#8ff194, rgb(156, 245, 156));
+
+    /*text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: radial-gradient(#04742f, #94a1eb);
+    /*background: linear-gradient()
+    /* background: #d4ffa2;*/
+}    
+#header {
+    background-image: url("./images/apomutown.jpg");
+    background-size: cover;
+    padding: 10px 0 100px 0;
+    /*animation-name: nature;
+    color: rgb(172, 36, 99);
+    display: flex;
+    flex-direction: column;
+    align-items: center;*/
+}
+#visit {
+    margin: auto;
+    margin-top: 50px;
+    width: 250px;
+    border: blue;
+    border-radius: 4px;
+    background: white;
+    padding: 21px 0 21px 0;
+    text-shadow: 0px 0px 8px rgb(122, 96, 96);
+    color:rgb(4, 104, 17);
+}
+#visit:hover {
+    background-color: #59bdff;
+}
+
+#brave {
+    margin: auto;
+    background: white;
+    width: 250px;
+    margin-top: 30px;
+    font-size: 19px;
+    padding: 15px;
+    border-radius: 6px;
+    text-shadow: 0 0 5px rgb(19, 19, 32);
+    color: rgb(86, 18, 150);
+}
+#brave:hover {
+    background-color: yellowgreen ;
+}
+.town-info {
+    background: linear-gradient(#8ff194, #a6f19c);
+    color: rgb(107, 74, 226);
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1;
+    text-align: center;
+    padding: 5px 200px;
+    font-size: x-large;
+    
+}
+
+#fish {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#desc {
+    color: rgb(5, 38, 95);
+    font-family: cursive;
+    font-size: x-large;
+}
+#desc:hover {
+    background-color: rgb(223, 197, 210);
+}
+#seller {
+    border-radius: 150px;
+    width: 350px;
+    padding: 10px;
+}
+#more {
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color:deeppink;
+}
+#more:hover {
+    background-color:aquamarine;
+}
+#more-info {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(5, 38, 95);
+    margin: 0 5px 0 5px;
+    font-size: 18px;
+    text-indent: left;
+    padding: 10px;
+    
+}
+
+.foto {
+    width: 300px;
+    height: 250px;
+    border-radius: 40px;
+}
+.fact {
+    text-align: center;
+    line-height: 1.5;
+}
+#map-guide {
+    text-align: center;
+    line-height: 1;
+}
+#map {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 10px;
+    align-content: center;*/
+}
+#local-map {
+    width: 550px;
+    height: 450px;
+}
+
+.fact-title {
+    font-size: 20px;
+    color: rgb(8, 10, 124);
+}
+.fact-title:hover {
+    background-color: aquamarine;
+}
+#tourist-guide {
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: azure;
+    margin: 50px auto;
+    width: 500px;
+
+    /*background: #219EBC;
+    color: #2b2839;*/
+    border-bottom: 15px solid #59bdff;
+    border-left: 8px solid #125c28;
+    border-radius: 10px;
+
+    transition: 0.8s;
+    overflow: auto;
+
+}
+.guide {
+    border-radius: 10px;
+}
+
+.guide-info {
+    color:#f3edec;
+    font-weight: bolder;
+    background-color: rgb(192, 177, 38);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.guide-info:hover {
+    background-color:rgb(28, 177, 115);
+    background-image: url("images/tour-guide2.gif");
+}
+
+/*h3, p{
+    text-shadow: 0px 0px 1px black;
+}
+/*
+.guide:hover {
+    background-color: bisque;
+    background-image: url("images/tour-guide.gif");
+}*/
